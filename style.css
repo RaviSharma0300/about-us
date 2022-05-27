@@ -1,0 +1,212 @@
+/*header*/
+header{
+    padding: 15px 0;
+    background-color: #2c3436; 
+}
+header p{
+ color: #fff;
+ text-transform: capitalize;
+}
+/*END*/
+/*mini-nav*/
+.mini-nav{
+    padding: 20px 0;
+}
+.mini-nav .search{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #111;
+    border-radius: 3px;
+    text-align: center;
+}
+.mini-nav ul li {
+   display: inline-block;
+   padding: 0 10px;
+}
+.mini-nav a {
+    text-decoration: none;
+}
+
+/*END*/
+.card{
+  margin: 25px 0;
+}
+.card img{
+    width: 100%;
+    height:100%;
+}
+.card-body span {
+    font-size: 14px;
+    color: #666666;
+    text-transform: capitalize;
+}
+.card-body p{
+    font-size: 14px;
+    color: #009bcb;
+    text-transform: capitalize;
+}
+.card-body .fas{
+    padding: 0 10px;
+}
+/*END*/
+/*mail*/
+.mail{
+    height: 200px;
+    background-color: #f9f9f9;
+    padding: 25px 0;
+}
+.mail p{
+    color: #009bcb;
+    font-size: 30px;
+}
+.mail span{
+    color: #666666;
+    font-size: 14px;
+}
+.text-input{ 
+    position: relative;
+    margin-top: 50px;
+   }
+    
+    input[type="text"]{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px 10px 10px 100px;
+    transition: all 0.1s ease-out;
+    }
+    
+    input[type="text"] + label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    border-radius: 3px 0 0 3px;
+    padding: 0 20px;
+    background: #009bcb;
+    transform: translateZ(0) translateX(0);
+    transition: all 0.3s ease-in;
+    transition-delay: 0.2s;
+    }
+    
+    input[type="text"]:focus + label{
+    transform: translateY(-120%) translateX(0%);
+    border-radius: 3px;
+    transition: all 0.1s ease-out;
+    }
+    
+    input[type="text"]:focus{
+    padding: 10px;
+    transition: all 0.3s ease-out;
+    transition-delay: 0.2s;
+    }
+/*END*/
+/*who*/
+ .who{
+     margin: 25px 0;
+     border-bottom:1px solid #666666 ;
+ }
+/*footer*/
+footer{
+    padding: 25px 0;
+    border-bottom:2px solid #666666 ;
+}
+footer p{
+    color: #666666;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+footer span{
+    color: #111;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+footer h4{
+    padding-left: 35px;
+    color: #2d3436;
+    font-size: 18px;
+    font-weight: 600;
+}
+footer ul li{
+    padding-left: 40px;
+    color: #666666;
+    font-size: 14px;
+}
+/*End*/
+/*Copy*/
+.copy{
+    padding:15px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 17px;
+    color: #666666;
+}
+/*END*/
+
+  *****************************************************
+  /*END*/
+  /*value*/
+  .value{
+      text-align: center;
+      padding: 20px 0;
+  }
+  .value .card{
+      border: none;
+  }
+  .value .card:hover{
+      opacity: .9;
+      cursor: pointer;
+  }
+  .value .card-text{
+      color: #000000;
+      font-size: 18px;
+  }
+  /*END*/
+  /*Awards*/
+  .awards{
+      padding: 20px 0;
+      text-align: center;
+  }
+  /*Ahmed*/
+ .ahmed .card{
+    background-size: 100%;
+    width: 100%;
+    height: 350px;
+    border:1px solid #eee;
+    color: #fff;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card .content{
+    font-size: 13px;
+    padding-top: 265px;
+    transition: all .1s ease;
+}
+.card:hover .content{
+    visibility: hidden;
+}
+.card .position{
+    position: absolute;
+    bottom: -70px;
+    transition: all .5s ease;
+    visibility: hidden;
+    font-size: 20px;
+}
+.card:hover .position{
+    margin-bottom: 90px;
+    visibility: visible !important;
+    
+}
